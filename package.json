@@ -1,0 +1,27 @@
+{
+  "name": "codex-auth",
+  "version": "0.0.1",
+  "author": "",
+  "description": "codex account switcher",
+  "keywords": [
+    "codex",
+    "account",
+    "switch"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "codex-switch": "./main.ts"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.3.2",
+    "dayjs": "^1.11.20",
+    "ora": "^9.3.0",
+    "picocolors": "^1.1.1",
+    "string-width": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "oxfmt": "^0.42.0"
+  }
+}
